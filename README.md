@@ -263,12 +263,5 @@ Natural disasters can reshape ecosystems:
 - 🦠 **Epidemic** — Spreading disease rings
 - ❄️ **Glaciation** — Ice age onset
 
----
-
-## License
-
-MIT License — feel free to fork, modify, and build upon EvoSphere.
-
----
 
 *Built with curiosity about life, evolution, and the beauty of emergent systems.*
