@@ -13,6 +13,19 @@
         z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
     })('e07e2d55-d3dc-4dfe-962f-aa1fc2676d60');
     </script>
+    <script>
+    (function() {
+      var visitorId = localStorage.getItem('evosphere_visitor_id');
+      if (!visitorId) {
+        visitorId = 'anon-' + Math.random().toString(36).substr(2, 9) + '-' + Date.now().toString(36);
+        localStorage.setItem('evosphere_visitor_id', visitorId);
+      }
+      pendo.initialize({
+        visitor: { id: visitorId },
+        account: { id: 'evosphere' }
+      });
+    })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
